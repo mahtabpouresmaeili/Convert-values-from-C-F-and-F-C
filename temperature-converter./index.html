@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Modern Temperature Converter °C to °F" />
+  <title>Temperature Converter</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 class="title">
+        Converter <span class="firstValue">°C</span> to <span class="secondValue">°F</span>
+      </h1>
+    </header>
+
+    <main class="main">
+      <div class="input-group">
+        <label for="inputTemp" class="input-label">Enter Temperature</label>
+        <input  type="number" class="input-field" placeholder="°C">
+      </div>
+
+      <p class="result">--</p>
+
+      <div class="buttons">
+        <button class="btn convert">Convert</button>
+        <button class="btn reset">Reset</button>
+        <button class="btn change">Change</button>
+      </div>
+    </main>
+  </div>
+  
+  <!-- JavaScript -->
+  <script src="javascript.js"></script>
+</body>
+
+</html>
